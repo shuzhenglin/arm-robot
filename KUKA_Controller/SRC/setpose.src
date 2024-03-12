@@ -1,0 +1,47 @@
+&ACCESS RVP
+DEF  setpose ( )
+;FOLD Declaration
+   DECL EKI_STATUS RET
+   DECL POS target
+   FRAME Valueframe
+   $FLAG[1]=FALSE
+;ENDFOLD
+
+;FOLD INI;%{PE}
+  ;FOLD BASISTECH INI
+    GLOBAL INTERRUPT DECL 3 WHEN $STOPMESS==TRUE DO IR_STOPM ( )
+    INTERRUPT ON 3 
+    BAS (#INITMOV,0 )
+  ;ENDFOLD (BASISTECH INI)
+  ;FOLD USER INI
+    ;Make your modifications here
+
+  ;ENDFOLD (USER INI)
+;ENDFOLD (INI)
+
+$TOOL = TOOL_DATA[1]
+$BASE = BASE_DATA[1]
+$IPO_MODE = #BASE
+$vel.cp=0.05 ;m/s
+$acc.cp=0.01 ;m/s^2
+
+RET=EKI_Init("XmlServer")
+RET=EKI_Open("XmlServer")
+Valueframe={X 0.0,Y 0.0,A 0.0,B 0.0,C 0.0}
+sptp $POS_ACT
+
+WAIT FOR $FLAG[1]
+LOOP
+IF $FLAG[3] THEN
+RET=EKI_GetFrame("XmlServer","Ext/Robot/Pos",Valueframe)
+EXIT
+ENDIF
+ENDLOOP
+target = Valueframe:{X 0.0, Y 0.0, Z 0.0, A 0.0, B 0.0, C 0.0}
+slin target
+
+WAIT FOR $FLAG[1]==FALSE
+RET=EKI_Close("XmlServer")
+RET=EKI_Clear("XmlServer")
+
+END

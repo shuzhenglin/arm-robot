@@ -1,0 +1,39 @@
+<ETHERNETKRL>
+	<CONFIGURATION>
+		<EXTERNAL>
+			<TYPE>Client</TYPE>
+		</EXTERNAL>
+		<INTERNAL>
+		   <BUFFERING Mode="FIFO" Limit="100"/>
+			<IP>192.168.1.106</IP>
+			<PORT>54600</PORT>
+			<ALIVE Set_Flag="1"/>
+		</INTERNAL>
+	</CONFIGURATION>
+	<RECEIVE>
+		<XML>
+			<ELEMENT Tag="Ext/Msg2" Type="STRING" Set_Flag="2"/>
+			<ELEMENT Tag="Ext/Msg3" Type="STRING" Set_Flag="3"/>
+			<ELEMENT Tag="Ext/Msg4" Type="STRING" Set_Flag="4"/>
+			<ELEMENT Tag="Ext/Msg5" Type="STRING" Set_Flag="5"/>
+			<ELEMENT Tag="Ext/Robot/Pos" Type="FRAME"/>
+		</XML>
+	</RECEIVE>
+	<SEND>
+		<XML>
+			<ELEMENT Tag="Robot/Data/LastPos/@X"/>
+			<ELEMENT Tag="Robot/Data/LastPos/@Y"/>
+			<ELEMENT Tag="Robot/Data/LastPos/@Z"/>
+			<ELEMENT Tag="Robot/Data/LastPos/@A"/>
+			<ELEMENT Tag="Robot/Data/LastPos/@B"/>
+			<ELEMENT Tag="Robot/Data/LastPos/@C"/>
+			<ELEMENT Tag="Robot/Data/LastAXIS/@A1"/>
+			<ELEMENT Tag="Robot/Data/LastAXIS/@A2"/>
+			<ELEMENT Tag="Robot/Data/LastAXIS/@A3"/>
+			<ELEMENT Tag="Robot/Data/LastAXIS/@A4"/>
+			<ELEMENT Tag="Robot/Data/LastAXIS/@A5"/>
+			<ELEMENT Tag="Robot/Data/LastAXIS/@A6"/>
+			<ELEMENT Tag="Robot/Data/Message"/>
+		</XML>
+	</SEND>
+</ETHERNETKRL>

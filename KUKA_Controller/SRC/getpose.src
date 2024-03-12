@@ -1,0 +1,45 @@
+&ACCESS RVO
+DEF  getpose ( )
+;FOLD Declaration
+   INT i
+   DECL EKI_STATUS RET
+   CHAR valueChar1[256]
+   ;FRAME valueFrame
+   $FLAG[1]=FALSE
+;ENDFOLD
+
+;FOLD INI;%{PE}
+  ;FOLD BASISTECH INI
+    GLOBAL INTERRUPT DECL 3 WHEN $STOPMESS==TRUE DO IR_STOPM ( )
+    INTERRUPT ON 3 
+    BAS (#INITMOV,0 )
+  ;ENDFOLD (BASISTECH INI)
+  ;FOLD USER INI
+    ;Make your modifications here
+
+  ;ENDFOLD (USER INI)
+;ENDFOLD (INI)
+
+FOR i=1 TO 256
+   valueChar1[i]=0
+ENDFOR
+
+RET=EKI_Init("XmlServer")
+RET=EKI_Open("XmlServer")
+
+WAIT FOR $FLAG[1]
+LOOP
+IF $FLAG[2] THEN
+RET=EKI_GetString("XmlServer","Ext/Msg2",valueChar1[])
+$FLAG[2]=FALSE
+RET=EKI_SetFrame("XmlServer","Robot/Data/LastPos",$POS_ACT)
+RET=EKI_Send("XmlServer","Robot")
+EXIT
+ENDIF
+ENDLOOP
+
+WAIT FOR $FLAG[1]==FALSE
+RET=EKI_Close("XmlServer")
+RET=EKI_Clear("XmlServer")
+
+END

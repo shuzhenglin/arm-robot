@@ -1,0 +1,63 @@
+DEF  scan ( )
+;FOLD Declaration
+   DECL POS Next_Pos
+   INT i
+   DECL EKI_STATUS RET
+   CHAR valueChar2[256]
+   $FLAG[1]=FALSE
+;ENDFOLD
+
+;FOLD INI;%{PE}
+  ;FOLD BASISTECH INI
+    GLOBAL INTERRUPT DECL 3 WHEN $STOPMESS==TRUE DO IR_STOPM ( )
+    INTERRUPT ON 3 
+    BAS (#INITMOV,0 )
+  ;ENDFOLD (BASISTECH INI)
+  ;FOLD USER INI
+    ;Make your modifications here
+
+  ;ENDFOLD (USER INI)
+;ENDFOLD (INI)
+
+INTERRUPT DECL 4 WHEN $FLAG[4] DO soft_stop()
+
+FOR i=1 TO 256
+   valueChar2[i]=0
+ENDFOR
+
+$TOOL = TOOL_DATA[1]
+$BASE = BASE_DATA[1]
+$IPO_MODE = #BASE
+$vel.cp=0.05 ;m/s
+$acc.cp=0.01 ;m/s^2
+
+RET=EKI_Init("XmlServer")
+RET=EKI_Open("XmlServer")
+
+sptp $POS_ACT
+
+WAIT FOR $FLAG[1]
+LOOP
+IF $FLAG[3] THEN
+RET=EKI_GetString("XmlServer","Ext/Msg3",valueChar2[])
+$FLAG[3]=FALSE
+RET=EKI_SetFrame("XmlServer","Robot/Data/LastPos",$POS_ACT)
+Next_Pos = $POS_ACT:{X 0.0, Y -1.0, Z 0.0, A 0.0, B 0.0, C 0.0}
+
+slin Next_Pos
+RET=EKI_SetString("XmlServer","Robot/Data/Message","arrive")
+RET=EKI_Send("XmlServer","Robot")
+ENDIF
+IF $FLAG[5] THEN
+EXIT
+ENDIF
+ENDLOOP
+
+WAIT FOR $FLAG[1]==FALSE
+RET=EKI_Close("XmlServer")
+RET=EKI_Clear("XmlServer")
+END
+
+DEF soft_stop()
+HALT
+END

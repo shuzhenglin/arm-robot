@@ -1,0 +1,22 @@
+2023-12-07 12:00:53,180 - root - INFO - robot.rshd=0
+robot.rshd=0
+2023-12-07 12:00:53,181 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+ip=192.168.1.10, port=8899
+2023-12-07 12:01:54,610 - verify - INFO - grab spend time:55.9437341
+grab spend time:55.9437341
+2023-12-07 12:02:55,060 - verify - INFO - concate spend time:60.4487128
+concate spend time:60.4487128
+2023-12-07 12:03:00,926 - verify - INFO - grab spend time:57.190017100000006
+grab spend time:57.190017100000006
+2023-12-07 12:04:08,371 - verify - INFO - concate spend time:67.44453180000001
+concate spend time:67.44453180000001
+2023-12-07 12:04:09,831 - verify - INFO - grab spend time:57.033118900000005
+grab spend time:57.033118900000005
+2023-12-07 12:05:14,678 - verify - INFO - concate spend time:64.84645120000002
+concate spend time:64.84645120000002
+2023-12-07 12:05:16,147 - verify - INFO - grab spend time:57.21187740000002
+grab spend time:57.21187740000002
+2023-12-07 12:06:00,516 - verify - INFO - concate spend time:44.36797029999997
+concate spend time:44.36797029999997
+2023-12-07 12:06:00,518 - verify - INFO - total spend time:301.852254
+total spend time:301.852254

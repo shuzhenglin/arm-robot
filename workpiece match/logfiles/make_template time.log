@@ -1,0 +1,152 @@
+2023-12-04 10:58:35,089 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 10:58:35,090 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 10:58:58,163 - __main__ - INFO - grab spend time:17.6005194
+2023-12-04 10:59:10,489 - __main__ - INFO - concate spend time:12.324737200000001
+2023-12-04 11:06:21,111 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 11:06:21,112 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 11:06:44,043 - __main__ - INFO - grab spend time:17.4799745
+2023-12-04 11:06:56,408 - __main__ - INFO - concate spend time:12.365051899999997
+2023-12-04 11:10:54,580 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 11:10:54,580 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 11:11:33,671 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 11:11:33,671 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 11:12:07,357 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 11:12:07,358 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 11:12:41,133 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 11:12:41,133 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 11:16:13,813 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 11:16:13,813 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 11:16:53,324 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 11:16:53,325 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 19:42:58,985 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 19:42:58,986 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 19:44:45,421 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 19:44:45,422 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 19:45:28,929 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 19:45:28,929 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 19:46:59,416 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 19:46:59,417 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 19:49:33,203 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 19:49:33,203 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 19:51:09,298 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 19:51:09,299 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 19:53:23,026 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 19:53:23,026 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 19:54:21,148 - __main__ - INFO - grab spend time:52.6640564
+2023-12-04 19:58:25,710 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 19:58:25,710 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:00:43,528 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:00:43,529 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:01:01,218 - __main__ - INFO - concate spend time:12.1918909
+2023-12-04 20:05:30,646 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:05:30,646 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:06:46,259 - __main__ - INFO - grab spend time:70.1477284
+2023-12-04 20:06:58,423 - __main__ - INFO - concate spend time:12.162606699999998
+2023-12-04 20:14:25,259 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:14:25,260 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:16:42,400 - __main__ - INFO - grab spend time:131.68282570000002
+2023-12-04 20:16:54,686 - __main__ - INFO - concate spend time:12.286332600000009
+2023-12-04 20:21:52,946 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:21:52,947 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:22:57,571 - __main__ - INFO - grab spend time:59.149214099999995
+2023-12-04 20:23:10,252 - __main__ - INFO - concate spend time:12.679018499999998
+2023-12-04 20:27:05,812 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:27:05,813 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:27:56,372 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:27:56,373 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:29:11,433 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:29:11,433 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:31:16,965 - __main__ - INFO - grab spend time:120.0880629
+2023-12-04 20:31:29,388 - __main__ - INFO - concate spend time:12.423677099999992
+2023-12-04 20:46:22,544 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:46:22,545 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:48:19,131 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-04 20:48:19,132 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-04 20:50:33,697 - __main__ - INFO - grab spend time:129.10327160000003
+2023-12-04 20:50:46,016 - __main__ - INFO - concate spend time:12.319369100000017
+2023-12-05 10:07:19,106 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 10:07:19,107 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 10:07:45,616 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 10:07:45,617 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 10:10:51,170 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 10:10:51,170 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 10:11:27,439 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 10:11:27,439 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 10:13:59,284 - __main__ - INFO - grab spend time:146.36555370000002
+2023-12-05 10:14:11,728 - __main__ - INFO - concate spend time:12.442775100000006
+2023-12-05 11:41:22,220 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 11:41:22,221 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 11:41:48,341 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 11:41:48,342 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 11:42:15,716 - __main__ - INFO - grab spend time:21.891747199999998
+2023-12-05 11:42:18,180 - __main__ - INFO - concate spend time:2.463404099999998
+2023-12-05 11:45:37,841 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 11:45:37,842 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 11:50:15,709 - __main__ - INFO - grab spend time:272.40682530000004
+2023-12-05 11:50:41,752 - __main__ - INFO - concate spend time:26.042015100000015
+2023-12-05 11:57:34,897 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 11:57:34,897 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 11:58:04,877 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 11:58:04,878 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 12:00:21,983 - __main__ - INFO - grab spend time:131.6259046
+2023-12-05 12:00:47,131 - __main__ - INFO - concate spend time:25.14790210000001
+2023-12-05 13:18:39,081 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 13:18:39,082 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 13:19:21,502 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 13:19:21,503 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 13:20:25,541 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 13:20:25,542 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 13:25:19,096 - __main__ - INFO - grab spend time:288.0874427
+2023-12-05 13:25:44,249 - __main__ - INFO - concate spend time:25.152703799999983
+2023-12-05 13:29:42,047 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-05 13:29:42,047 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-05 13:34:58,350 - __main__ - INFO - grab spend time:310.8327134
+2023-12-05 13:35:23,263 - __main__ - INFO - concate spend time:24.911908200000028
+2023-12-06 14:42:51,240 - main.robotcontrol - INFO - robot.rshd=0
+2023-12-06 14:42:51,252 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+robot.rshd=0
+2023-12-06 14:43:01,436 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 14:43:01,437 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+robot.rshd=0
+2023-12-06 14:46:46,573 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 14:46:46,574 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-06 15:00:42,836 - __main__ - INFO - grab spend time:830.7842733
+robot.rshd=0
+2023-12-06 15:07:06,098 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 15:07:06,099 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+robot.rshd=0
+2023-12-06 15:07:49,733 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 15:07:49,734 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-06 15:09:05,841 - __main__ - INFO - concate spend time:70.62628120000001
+robot.rshd=0
+2023-12-06 15:47:10,070 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 15:47:10,071 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-06 16:00:33,004 - __main__ - INFO - grab spend time:797.4590549999999
+2023-12-06 16:01:42,428 - __main__ - INFO - concate spend time:69.4240855999999
+robot.rshd=0
+2023-12-06 17:50:23,137 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 17:50:23,137 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+robot.rshd=0
+2023-12-06 17:51:13,549 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 17:51:13,549 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-06 18:06:40,849 - __main__ - INFO - grab spend time:921.8188571
+2023-12-06 18:07:43,876 - __main__ - INFO - concate spend time:63.02669910000009
+robot.rshd=0
+2023-12-06 18:20:08,554 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 18:20:08,555 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-06 18:21:18,612 - __main__ - INFO - grab spend time:64.6062212
+2023-12-06 18:21:31,242 - __main__ - INFO - concate spend time:12.628763699999993
+robot.rshd=0
+2023-12-06 18:26:55,002 - main.robotcontrol - INFO - robot.rshd=0
+ip=192.168.1.10, port=8899
+2023-12-06 18:26:55,003 - main.robotcontrol - INFO - ip=192.168.1.10, port=8899
+2023-12-06 18:29:20,497 - __main__ - INFO - grab spend time:140.03156380000001
+2023-12-06 18:29:32,945 - __main__ - INFO - concate spend time:12.4470757
